@@ -1,0 +1,333 @@
+
+  
+  /*Estilos Cross documentos HTML*/
+  .background-footer {
+    background-color: #b3c8ea;
+    margin-top: 100px; }
+  
+  html {
+    height: 100%; }
+  
+  body {
+    min-height: 100%; }
+  
+  h1 {
+    color: #780a91;
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    padding-left: 20px; }
+  
+  p {
+    color: #845EC2;
+    font-family: 'Andada Pro', serif;
+    margin-left: 15px; }
+  
+  .navbar-light .navbar-nav .nav-link {
+    font-family: 'Andada Pro', serif;
+    color: #de5499; }
+  
+  html {
+    background-color: #f2ebe9; }
+  
+  a {
+    text-decoration: none;
+    color: #264143;
+    font-family: 'Andada Pro', serif; }
+  
+  * {
+    margin: 0px;
+    padding: 0px; }
+  
+  #textPrincipal {
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+  
+  .footer__div__Info {
+    text-align: center;
+    font-size: 12px; }
+  
+  /*Propiedades de los botones*/
+  .boton-redondeado {
+    border-radius: 150px; }
+  
+  .boton-outline {
+    background: #eddcd9;
+    border-radius: 150px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border: 2px solid #de5499;
+    display: inline-block; }
+  
+  .boton-outline:hover {
+    background: #de5499;
+    color: white;
+    border-radius: 150px; }
+  
+  .contenedorBotones {
+    text-align: center;
+    margin-bottom: 50px; }
+  
+  /*Propiedades del menu principal*/
+  .logo {
+    display: inline-block;
+    width: 300px; }
+  
+  .menu li a {
+    color: #de5499;
+    text-decoration: none;
+    font-family: 'Andada Pro', serif;
+    font-size: 21px; }
+  
+  .menu li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    list-style-type: none;
+    margin-top: 50px; }
+    .menu li a:hover {
+      background: #de5499;
+      color: white; }
+  
+  .bg-light {
+    background: none; }
+  
+  .estilosMenu {
+    background-color: #eddcd9;
+    width: 100%; }
+  
+  .logo {
+    width: 293px;
+    height: 286px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -106px;
+    margin-left: -65px; }
+  
+  nav ul {
+    display: none;
+    position: relative; }
+  
+  nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #eddcd9;
+    border: 1px solid #de5499; }
+  
+  .dropdown li a {
+    text-align: center; }
+  
+ 
+  
+  /*Estilos de Landing Principal*/
+  #landingPrincipal {
+    display: inline-block; }
+  
+  #landingPrincipal section h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: purple;
+    margin-top: 33px; }
+  
+  #landingPrincipal p {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 33px;
+    margin-bottom: 33px; }
+  
+ 
+  
+  /*Pagina de adopcion*/
+  #gatitos tr td {
+    font-family: 'Andada Pro', serif; }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 29px; }
+  
+  #gatitos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 23px;
+    column-gap: 89px;
+    margin-left: 20px;
+    margin-top: 20px; }
+    #gatitos img {
+      width: 386px;
+      height: 414px; }
+  
+  /*Hover en nombre de cada gatito*/
+  .hoverWrapper {
+    position: relative;
+    max-width: 500px; }
+  
+  .nombreGatito {
+    /*  DIMENSIONES */
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    /* POSICION*/
+    position: absolute;
+    bottom: 0;
+    /*  COLORES */
+    background-color: purple;
+    color: white;
+    font-family: 'Andada Pro', serif; }
+  
+  .nombreGatito {
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s; }
+  
+  .hoverWrapper:hover .nombreGatito {
+    visibility: visible;
+    opacity: 1; }
+  
+  /*Pagina de tienda online*/
+  #tiendaOnline {
+    display: none; }
+  
+  .wrapperProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    justify-items: end;
+    align-items: center;
+    justify-content: space-around; }
+  
+  .wrapperProductos span {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 33px;
+    background-color: white;
+    margin: 25px; }
+  
+  .botonComprar {
+    font-family: 'Andada Pro', serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border: 2px solid #de5499;
+    display: inline-block;
+    background-color: #de5499;
+    color: white;
+    margin-top: 10px; }
+  
+  .botonComprar:hover {
+    font-family: 'Andada Pro', serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border: 2px solid white;
+    display: inline-block;
+    background-color: #bb7f9d;
+    color: black;
+    margin-top: 10px; }
+  
+  .producto {
+    text-align: center; }
+  
+  .precio {
+    text-align: center; }
+  
+  .page-link {
+    color: #de5499;
+    font-family: 'Andada Pro', serif; }
+  
+  
+  
+  /*MEDIA QUERIES*/
+  /*INDEX*/
+  @media only screen and (max-width: 480px) {
+    .boton {
+      margin-bottom: 15px;
+      width: 80px;
+      padding: 16px 80px;
+      display: unset; }
+    h1 {
+      font-size: 2em; } }
+  
+  @media only screen and (max-width: 800px) {
+    /*Estilos Cross documentos HTML*/
+    h1 {
+      font-size: 2em; }
+    p {
+      color: #845EC2;
+      font-family: 'Andada Pro', serif;
+      font-size: 15px;
+      margin-left: 15px;
+      text-align: inherit; }
+    .logo {
+      display: block; }
+    .estilosMenu {
+      display: flex;
+      flex-direction: column; }
+    .menu li {
+      display: block;
+      padding: 0 10px;
+      list-style-type: none;
+      margin-top: 50px;
+      float: none; }
+    .estilosMenu {
+      height: 100%; }
+    .menu {
+      text-align: center; }
+    #landingPrincipal {
+      margin: 0px; }
+    .logo {
+      float: none;
+      display: inline-block;
+      margin: 0 0 16px 0; }
+    #landingPrincipal section h1 {
+      font-size: 2em; }
+    .boton {
+      display: unset; }
+    #landingPrincipal p {
+      font-size: 1em; }
+    /*Tienda*/
+    .wrapperProductos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      justify-items: end;
+      align-items: center;
+      justify-content: space-around; }
+    .wrapperProductos span {
+      margin-left: 11px;
+      margin-right: 41px;
+      padding: 12px; } }
+  
+  @media only screen and (max-width: 1024px) {
+    .boton {
+      margin-bottom: 14px;
+      width: 85px;
+      padding: 16px 72px 16px 30px;
+      display: inline-block;
+      font-size: 15px; }
+    .boton a {
+      text-align: center; }
+    .botonComprar {
+      padding: 0px 37px; }
+    .wrapperProductos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      justify-content: space-around;
+      place-items: center; }
+    .wrapperProductos span {
+      margin-left: 13px;
+      margin-right: 21px;
+      padding: 12px; } }
+  
