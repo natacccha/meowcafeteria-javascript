@@ -17,6 +17,14 @@
     font-family: 'Lobster', cursive;
     display: inline-block;
     padding-left: 20px; }
+
+    h2{
+      color: #780a91;
+      font-size: 2em;
+      font-family: 'Lobster', cursive;
+      display: inline-block;
+      padding-left: 20px; 
+    }
   
   p {
     color: #845EC2;
