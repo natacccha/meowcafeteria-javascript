@@ -13,7 +13,6 @@ class Productos {
     }
 }
 
-
 function calcularCarrito() {
     do {
         nombreProducto = prompt('Ingrese el nombre del producto');
@@ -31,8 +30,23 @@ function calcularCarrito() {
     
     const totalAPagar = totalPorProducto.reduce((a,b)=> a+b);
     console.log('Su total a pagar es: $' + totalAPagar);
+
+    agregarFilas();
 }
 
+// Interaccion con el HTML
+
+
+function agregarFilas(){
+    const tabladeProductos = document.getElementById('tableBody');
+    for(datos of canasta){
+        const td = "<tr><td>"+datos.nombreProducto+"</td><td>"+datos.cantidad+"</td><td>"+datos.precioUnidad+"</td></tr>"
+        tabladeProductos.innerHTML+=td;
+    }
+
+    
+
+}
 
 
 
