@@ -208,11 +208,14 @@
   .wrapperProductos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     justify-items: end;
     align-items: center;
     justify-content: space-around; }
+
+
+    
   
   .wrapperProductos span {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
