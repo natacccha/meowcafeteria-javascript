@@ -124,9 +124,9 @@ botonDeComprar.forEach(boton => {
             duration: 3000,
             newWindow: true,
             close: true,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            stopOnFocus: true, // Prevents dismissing of toast on hover
+            gravity: "top", 
+            position: "right", 
+            stopOnFocus: true, 
             style: {
                 background: "grey",
             },
@@ -142,12 +142,6 @@ function agregarFilas() {
     while (tabladeProductos.hasChildNodes()) {
         tabladeProductos.removeChild(tabladeProductos.firstChild);
     }
-/*     for (datos of canasta) {
-        const td = "<tr><td>" + datos.titulo + "</td><td>" + 1 + "</td><td>" + datos.Precio + "</td></tr>" 
-        tabladeProductos.innerHTML += td;
-
-    } */
-
     for (var i = 0; i < canasta.length; i++) {
         var datos = canasta[i];
         const td = "<tr><td>"+i+"</td><td>" + datos.titulo + "</td><td>" + 1 + "</td><td>" + datos.Precio + "</td><td><button id='"+i+"' class='borradoIndividual'>❌</button></td></tr>" 
@@ -170,6 +164,9 @@ const recuperoCarrito = () => {
     var recuperoDeCarrito = localStorage.getItem("CarritoAbandonado");
     var jsonParseCarrito = JSON.parse(recuperoDeCarrito);
     if(jsonParseCarrito != null ){
+        while(canasta.length > 0) {
+            canasta.pop();
+        }
         for (recupero of JSON.parse(recuperoDeCarrito)) {
             canasta.push(recupero);
         }
@@ -216,6 +213,7 @@ borradoIndividual.forEach(boton => {
         canasta.splice(parseInt(botonId),1);
         location.reload()
         guardarCarrito();
+        recuperoCarrito();
     })
 })
 
