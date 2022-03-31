@@ -1,6 +1,33 @@
 
   
   /*Estilos Cross documentos HTML*/
+
+  #botonVaciar{
+    background-color: #de5499;;
+    font-family: 'Andada Pro', serif;
+    border-color:  black;
+    
+  }
+
+  #botonVaciar:hover {
+    background: #845EC2;
+    color: white;
+  }
+  
+  
+  #botonComprar{
+    background-color: #de5499;;
+    font-family: 'Andada Pro', serif;
+    border-color:  black;
+    
+  }
+
+  
+  #botonComprar:hover {
+    background: #845EC2;
+    color: white;
+  }
+  
   .background-footer {
     background-color: #b3c8ea;
     margin-top: 100px; }
