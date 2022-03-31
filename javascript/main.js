@@ -150,7 +150,7 @@ function agregarFilas() {
 
     for (var i = 0; i < canasta.length; i++) {
         var datos = canasta[i];
-        const td = "<tr><td>"+i+"</td><td>" + datos.titulo + "</td><td>" + 1 + "</td><td>" + datos.Precio + "</td><td><button id='"+i+"' class='borradoIndividual'>X</button></td></tr>" 
+        const td = "<tr><td>"+i+"</td><td>" + datos.titulo + "</td><td>" + 1 + "</td><td>" + datos.Precio + "</td><td><button id='"+i+"' class='borradoIndividual'>❌</button></td></tr>" 
         tabladeProductos.innerHTML += td;
      }
 
