@@ -184,7 +184,7 @@ var carritoVacio = [];
 
 
 function borradoDeCarrito(){
-    alert('toco el boton');
+   
     
     carritoVacio= localStorage.removeItem("CarritoAbandonado");
         if(carritoVacio===undefined){
@@ -211,7 +211,7 @@ borradoIndividual.forEach(boton => {
     boton.addEventListener('click', () => {
         var botonId = boton.getAttribute("id");
         canasta.splice(parseInt(botonId),1);
-        location.reload()
+       location.reload()
         guardarCarrito();
         recuperoCarrito();
     })
