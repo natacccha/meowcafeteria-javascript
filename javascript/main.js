@@ -191,7 +191,7 @@ function borradoDeCarrito(){
             Swal.fire({
                 title: 'Tu carrito fue borrado! 😿',
                 text: 'Se refrescara la pagina automaticamente',
-                imageUrl: 'images/icono.JPG',
+                imageUrl: 'images/icono.jpg',
                 confirmButtonText: 'Ok!'
               })
             timedRefresh(3000); // Se refresca la pagina
