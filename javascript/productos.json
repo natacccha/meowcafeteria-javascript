@@ -1,0 +1,85 @@
+[{
+    "titulo": "Peluche Elefante",
+    "Precio": 560,
+    "imagenURL": "images/juguete1.jpg",
+    "id": "pelucheElefante"
+},
+{
+    "titulo": "Peluche Ardillita",
+    "Precio": 520,
+    "imagenURL": "images/juguete2.jpg",
+    "id": "pelucheArdillita"
+
+},
+{
+    "titulo": "Gatito Pelota",
+    "Precio": 1300,
+    "imagenURL": "images/juguete3.jpg",
+    "id": "gatitoPelota"
+
+},
+{
+    "titulo": "Varita Gallina",
+    "Precio": 700,
+    "imagenURL": "images/juguete4.jpg",
+    "id": "varitaGallina"
+
+},
+{
+    "titulo": "Raton Elastico",
+    "Precio": 900,
+    "imagenURL": "images/juguete5.jpg",
+    "id": "ratonElastico"
+
+},
+{
+    "titulo": "Pelota de Goma",
+    "Precio": 1100,
+    "imagenURL": "images/juguete6.jpg",
+    "id": "pelotaGoma"
+
+},
+{
+    "titulo": "Ratoncito a Colores",
+    "Precio": 990,
+    "imagenURL": "images/juguete7.jpg",
+    "id": "ratoncitoColores"
+
+},
+{
+    "titulo": "Patito Cascabel",
+    "Precio": 1200,
+    "imagenURL": "images/juguete8.jpg",
+    "id": "patitoCascabel"
+
+},
+{
+    "titulo": "Ratoncito Catnip",
+    "Precio": 1000,
+    "imagenURL": "images/juguete9.jpg",
+    "id": "ratoncitoCatnip"
+
+},
+{
+    "titulo": "Caballito de Mar",
+    "Precio": 1200,
+    "imagenURL": "images/juguete10.jpg",
+    "id": "caballitoMar"
+
+},
+{
+    "titulo": "Varita para Gatos",
+    "Precio": 1250,
+    "imagenURL": "images/juguete11.jpg",
+    "id": "varitaGatos"
+
+},
+{
+    "titulo": "Cerdito de Goma",
+    "Precio": 1500,
+    "imagenURL": "images/juguete12.jpg",
+    "id": "cerditoGoma"
+
+}
+
+]

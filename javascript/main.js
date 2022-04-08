@@ -1,6 +1,10 @@
 const canasta = [];
 const IVA = 1.21;
 
+// Declaracion de mi archivo JSON
+
+const databaseProductos = `${window.location.origin}/javascript/productos.json`
+
 
 function timedRefresh(timeoutPeriod) {
 	setTimeout("location.reload(true);",timeoutPeriod);
@@ -9,7 +13,13 @@ function timedRefresh(timeoutPeriod) {
 
 // Informacion de Productos que se populara Dinamicamente
 
-const informacionDeProductos = [{
+const informacionDeProductos = (databaseProductos) => {
+    fetch(databaseProductos)
+    .then((response)=> response.json())
+    .then((data) => console.table(data))
+}
+
+/* const informacionDeProductos = [{
         "titulo": "Peluche Elefante",
         "Precio": 560,
         "imagenURL": 'images/juguete1.jpg',
@@ -93,7 +103,7 @@ const informacionDeProductos = [{
 
     },
 
-]
+] */
 
 
 function agregarProductosDinamicos() {
