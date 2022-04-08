@@ -3,7 +3,6 @@ const IVA = 1.21;
 
 
 
-
 function timedRefresh(timeoutPeriod) {
 	setTimeout("location.reload(true);",timeoutPeriod);
 }
@@ -16,11 +15,15 @@ var informacionDeProductos;
     fetch("https://natacccha.github.io/meowcafeteria-javascript/javascript/productos.json")
     .then((response)=> response.json())
     .then(data => {
-        informacionDeProductos = data; 
-        agregarProductosDinamicos();
+        setTimeout(()=>{
+            informacionDeProductos = data; 
+            agregarProductosDinamicos();
+        },3000)
       });
 
 function agregarProductosDinamicos() {
+    document.getElementById("loader").style.display = "none";
+
     const cardProductos = document.getElementById('cardProductos');
      for (articulos of informacionDeProductos) {
         const estructura = `<span><div class='box'><img src=${articulos.imagenURL}></div><p class='producto'>${articulos.titulo}</p><p class='precio'>$${articulos.Precio}</p><a href="javascript:botonComprar(${articulos.id})" class='botonComprar'id=${articulos.id} >Agregar al Carrito</a></span>`
